@@ -1,0 +1,11 @@
+---
+layout: slide
+title: "welcome to the second slide!"
+---
+
+# you need to write everything inside update method
+
+float horizontalInput = input.GetAxis("Horizontal");
+transform.Translate(new Vector3(horizontalInput,0,0)*Time.DeltaTime);
+
+# same goes for the vertical input
